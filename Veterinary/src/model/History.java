@@ -105,7 +105,7 @@ public class History {
 
 	// the cost per aniaml
 	public String costPerAnimal1() {
-		String cost = 0.0;
+		String cost = "";
 		for (int i = 0;i<details.size() ;i++ ) {
 			cost += hist.get(i).getName() + " : " + details.get(i).calculateCost();
 		}
